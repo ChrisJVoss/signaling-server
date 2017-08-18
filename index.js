@@ -1,9 +1,6 @@
-const https = require('https').createServer({
-  key: process.env.KEY,
-  cert: process.env.CERT
-})
+const https = require('https').createServer()
 const io = require('socket.io')(https)
-io.path(process.env.PATH)
+io.path('https://electric-signaling-server.herokuapp.com')
 let connections = []
 
 io.on('connection', socket => {
