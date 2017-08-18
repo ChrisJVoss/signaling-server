@@ -18,6 +18,6 @@ io.on('connection', socket => {
   })
 })
 
-http.listen(process.env.PORT, () => {
+https.listen(process.env.PORT, () => {
   console.log('Listening...')
 })
