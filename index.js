@@ -3,7 +3,7 @@ const https = require('https').createServer({
   cert: process.env.CERT
 })
 const io = require('socket.io')(https)
-
+io.path(process.env.PATH)
 let connections = []
 
 io.on('connection', socket => {
