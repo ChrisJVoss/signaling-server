@@ -1,0 +1,26 @@
+{
+  "name": "signaling-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.2.1"
+  },
+  "description": "A simple signaling server to allow clients to broadcast their IPs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisJVoss/signaling-server.git"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisJVoss/signaling-server/issues"
+  },
+  "homepage": "https://github.com/ChrisJVoss/signaling-server#readme"
+}
